@@ -2,6 +2,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+.with_padding_left_right {
+    // border-left: 1px solid black;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
